@@ -13,7 +13,6 @@ class E:
 
     expects = 0
     for ai in xrange(a):
-      print expects, ' '
       expects += dp[ai][e] * (a - ai)
 
     return str(expects)
